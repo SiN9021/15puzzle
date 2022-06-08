@@ -9,8 +9,8 @@ function pieceClickHandler(){
     console.log('ピースがクリックされました');
 }
 
-
-for(let n = 1; n <= 16; n = n + 1){
+// 1番ピースのクリックを監視し、クリックされたらpieceClickHandlerを呼ぶ
+for(let n = 1; n <= 15; n = n + 1){
     const piece = document.querySelector('.pos-' + n);
     piece.addEventListener('click', pieceClickHandler);
 }
