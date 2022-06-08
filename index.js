@@ -9,6 +9,6 @@ function pieceClickHandler(){
     console.log('ピースがクリックされました');
 }
 
-const piece01 = document.querySelector(',pos-1');
+const piece01 = document.querySelector('.pos-1');
 
 piece01.addEventListener('click', pieceClickHandler);
